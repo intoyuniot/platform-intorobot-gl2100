@@ -119,7 +119,7 @@ env.Append(
         join(FRAMEWORK_DIR, "variants", board.get("build.variant"), "build", "linker")
     ],
     LIBS=[
-        "newlib_nano", "PDMFilter_CM4_GCC", "wiring", "wiring_ex", "hal", "system", "services", "communication", "platform", "gcc", "c"
+        "newlib_nano", "wiring", "wiring_ex", "hal", "system", "services", "communication", "platform", "gcc", "c"
     ]
 )
 
